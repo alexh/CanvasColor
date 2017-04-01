@@ -1,0 +1,50 @@
+body {
+	background-color: #DCD4BB;
+}
+
+.canvas {
+	/* Perfectly square */
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	/*display: table;
+    border-collapse:collapse*/
+    display: table;
+}
+
+.row {
+	display: table;
+}
+
+.pixel {
+	display: table-cell;
+	width: 8px;
+	height: 8px;
+	border: 1px solid black;
+	float: left;
+	background-color: #EDE4C8;
+	display: inline-block;
+	padding: 0px;
+
+}
+
+
+.toolbar{
+	margin: 0px auto;
+	margin-top: 5px;
+	float: none;
+	display: table;
+}
+
+.tool {
+	width: 30px;
+	height: 30px;
+	margin-left: 2px;
+	border: 1px solid black;
+	display: inline-block;
+}
+.tool.selected{
+	width: 30px;
+	height: 30px;
+    border-width: 4px;
+}
