@@ -28,9 +28,6 @@ $('document').ready(function(){
 		$('.canvas').append(col);
 	}
 
-	// for(var i = 0; i < 2500; i++){
-	// 	$('.canvas').append('<div class="pixel"></div>');
-	// }
 
 	$('.pixel').click(function (){
 		console.log("clicked");
